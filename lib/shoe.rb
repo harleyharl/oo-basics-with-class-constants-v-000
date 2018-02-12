@@ -11,7 +11,7 @@ class Shoe
     if BRANDS.include? @brand
     end
     else
-      BRANDS << brand
+      BRANDS << @brand
     end
   end
 
